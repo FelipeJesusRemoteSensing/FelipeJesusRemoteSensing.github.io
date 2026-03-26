@@ -1,0 +1,62 @@
+<article
+    style="line-height: 1.6; font-family: sans-serif; color: #cfcfcf; max-width: 900px; margin: 0 auto; padding: 20px; text-align: justify;">
+
+    <p>
+        O modelo Century é um modelo de processos biogeoquímicos utilizado para estimar a ciclagem e estoques de
+        nutrientes críticos em ecossistemas variados. Desenvolvido pelo Colorado State University, tem ampla aplicação
+        no Brasil e em ecossistemas tropicais (Wendling et al., 2014; Baethgen et al., 2021). O modelo tem como incluir
+        ciclagem e estoques de Carbono, Fósforo, Nitrogênio e Enxofre, porém tem maior aplicação para Carbono e
+        Nitrogênio. O modelo é composto de três sub-modelos: vegetação, água e dinâmica de matéria orgânica e precisa de
+        entradas sobre cobertura e manejo ao longo do tempo, clima e solos. A estrutura básica dos arquivos utilizados
+        para estruturar o modelo está à mostra em Figura 1. Os doze arquivos que fazem parte do FILE100 permitem
+        especificar o uso e cobertura ao longo do tempo.
+    </p>
+
+
+    <figure
+        style="display: block; width: 80%; max-width: 600px; margin: 30px auto; border: 1px solid #ccc; padding: 10px; background: #fff; text-align: center;">
+        <img src="secoes/01_modelo_century/century.png" alt="Figura 1"
+            style="width: 100%; height: auto; border-radius: 4px;">
+        <figcaption style="font-size: 0.75rem; color: #0a0a0a; margin-top: 5px;">
+            <strong>Figura 1.</strong> Estrutura do modelo Century mostrando a relação entre os programas e os arquivos
+            acessórios detalhando a agenda dos usos e eventos ao longo do tempo (EVENT100) e os detalhes de tratamento
+            de manejo e uso como fertilização (FERT), pastejo (GRAZ), e fogo (FIRE) entre outros.
+        </figcaption>
+    </figure>
+
+
+
+    <p>
+        O LAPIG em parceria com UFS e TNC tem trabalhado ao longo dos últimos anos na melhoria do modelo Century na
+        região do Cerrado Brasileiro (Santos et al., 2022, Santos et al., 2024) e na calibração do modelo para usos
+        típicos da região. Atualmente, já possui a calibração e validação a partir de 111 sítios distribuídos (Figura 2)
+        na região para três usos específicos: Cerrado (39), pastagem (30) e soja (42). Para calibrar o modelo é
+        necessário informações sobre estoques de carbono, densidade, pH e granulometria do solo, assim como informações
+        sobre a vegetação em pé. Atualmente temos variabilidade de região, clima, e solos dentro dessas amostras. Porém,
+        o agrupamento dos sítios atuais deixa algumas regiões com menos amostras. A calibração do modelo requer dados de
+        estoques de carbono, densidade, pH e granulometria do solo, além de informações sobre a vegetação. Atualmente,
+        as amostras exibem variabilidade regional, climática e de tipos de solo. No entanto, o agrupamento dos locais de
+        amostragem resulta em uma cobertura desigual, com algumas regiões apresentando um número reduzido de amostras.
+    </p>
+
+    <p>
+        Para otimizar o modelo, a seleção de áreas de amostragem de solo deve considerar a distribution atual das
+        propriedades rurais que integram o programa REVERTE®, bem como a baixa representatividade espacial nos locais de
+        calibração e validação. A escolha das fazendas para amostragem adicional priorizou aquelas que possibilitam a
+        comparação entre áreas de soja e pastagens, levando em conta fatores como solo, região, dados de manejo
+        disponíveis e o tempo decorrido desde a conversão, conforme o agrupamento das fazendas e suas variáveis
+        específicas.
+    </p>
+
+    <figure
+        style="display: block; width: 80%; max-width: 600px; margin: 30px auto; border: 1px solid #ccc; padding: 10px; background: #fff; text-align: center;">
+        <img src="secoes/01_modelo_century/pontos_amostras.png" alt="Figura 2"
+            style="width: 100%; height: auto; border-radius: 4px;">
+        <figcaption style="font-size: 0.75rem; color: #272727; margin-top: 5px;">
+            <strong>Figura 2.</strong> Distribuição de 111 sítios utilizada para calibração e validação de modelo
+            CENTURY divididos entre 3 coberturas: cerrado (39), pastagem (30) e soja (42).
+        </figcaption>
+    </figure>
+
+    <div style="clear: both;"></div>
+</article>
