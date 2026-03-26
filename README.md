@@ -32,26 +32,6 @@ O **Century** é um modelo de processos biogeoquímicos utilizado para estimar a
 
 Cada subpasta contém um arquivo `conteudo.html` que é carregado dinamicamente via `fetch()`, além de imagens e figuras utilizadas na respectiva seção.
 
-## 🚀 Como Rodar Localmente
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/FelipeJesusRemoteSensing/FelipeJesusRemoteSensing.github.io.git
-   ```
-
-2. Inicie um servidor local (escolha uma opção):
-   ```bash
-   # Opção 1: Live Server (recarrega automaticamente ao salvar)
-   npx -y live-server --port=3000
-
-   # Opção 2: Python
-   python -m http.server 3000
-   ```
-
-3. Acesse no navegador: `http://localhost:3000`
-
-> ⚠️ **Não abra o `index.html` diretamente pelo navegador** (via `file://`). As seções são carregadas via `fetch()` e requerem um servidor HTTP devido a restrições de CORS.
-
 ## 🛠️ Tecnologias
 
 - **HTML5** — Estrutura e conteúdo
@@ -61,6 +41,6 @@ Cada subpasta contém um arquivo `conteudo.html` que é carregado dinamicamente 
 
 ## 👤 Autor
 
-**Felipe Jesus** — [GitHub](https://github.com/FelipeJesusRemoteSensing)
+**Felipe Jesus** — [GitHub](https://github.com/FelipeJesusRemoteSensing) e **Marcos Cardoso** - [GitHub](https://github.com/cardosomvs)
 
 Laboratório de Processamento de Imagens e Geoprocessamento (LAPIG) — UFG
